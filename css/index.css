@@ -555,7 +555,7 @@ user-select: none;*/
     
 }
 .silier-wrap .service-menu .service-wrap, .detil-r .service-wrap {
-    width: 170px;
+    width: 196px;
     margin: 0 auto;
 }
 .silier-wrap .service-menu h2.menu-tit,.detil-r .service-wrap h2.menu-tit{
@@ -611,11 +611,13 @@ user-select: none;*/
 }
 .solution-wrap .solution-wrap-l .solution-hd span {
     display: inline-block;
-    width: 96px;
+   /* width: 96px;*/
     font-size: 16px;
     text-align: center;
     height: 49px;
     cursor:pointer;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .solution-wrap .solution-wrap-l .solution-hd span.active {
     border-bottom: 2px solid #3776d3;
@@ -648,7 +650,7 @@ border-bottom: 0 none;
     float: left;
     width: 550px;
 }
-.solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con h2{
+.solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con h2,.silder-area .slider-list h2{
     font-size: 20px;
     color: #333;
     height: 35px;
@@ -657,15 +659,15 @@ border-bottom: 0 none;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con p{
+.solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con p,.silder-area .slider-list p{
     font-size: 14px; 
     height: 30px;
     color: #999;
 }
-.solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con p a{
+.solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con p a,.silder-area .slider-list p a{
     color: #999;
 }
-.solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con p a:hover,.solution-wrap-l .load-more a:hover{
+.solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con p a:hover,.solution-wrap-l .load-more a:hover,.silder-area .slider-list p a:hover{
     color: #3776d3;
 }
 .solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con .text-con{
@@ -694,6 +696,9 @@ border-bottom: 0 none;
     color: #999;
     margin-top: 10px;
 }
+.chat-trad1{
+   margin-top: 36px;
+}
 .chat-trad .icon-chat {
     width: 17px;
     height: 15px;
@@ -708,6 +713,10 @@ border-bottom: 0 none;
     font-size:18px;
     color: #ff0000;
     font-weight: normal;
+}
+
+.slider-list .chat-trad1 .icon-talk{
+    margin-right: 6px;
 }
 .solution-wrap .solution-wrap-r,.need-wrap .solution-wrap-r{
     height: auto;
@@ -1045,7 +1054,7 @@ overflow: hidden;
     text-overflow: ellipsis;
 
 }
-.detil-l .Online-talk .icon-talk,.need-l .Online-talk .icon-talk{
+.detil-l .Online-talk .icon-talk,.need-l .Online-talk .icon-talk,.slider-list .chat-trad .icon-talk{
     width: 22px;
     height: 18px;
     background: url(../images/zx.png) 0 0 no-repeat;
