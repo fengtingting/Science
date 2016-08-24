@@ -691,7 +691,6 @@ border-bottom: 0 none;
     margin-top: 20px;
     margin-bottom: 70px;
     font-size: 14px;
-
 }
 
 .solution-wrap-l .load-more a{
@@ -1517,4 +1516,33 @@ right: 10px;
 .solution-wrap .solution-wrap-l .solution-bd .science-hd p span.active{
 background: #3776d3;
 color: #fff;
+}
+
+.solution-wrap-l .solutionTab1 .load-more{
+    margin-right: 30px;
+}
+
+/*右下角弹窗*/
+
+#webim {
+    width: 280px;
+    height: 188px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+}
+
+#webim .dlstyle {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+}
+#webim .dlstyle span {
+    width: 24px;
+    height: 24px;
+    display: block;
+    background: url("http://www.itcast.cn/files/image/201602/20160229150200530.jpg");
+    text-indent: -9999px;
 }
