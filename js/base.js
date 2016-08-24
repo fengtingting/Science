@@ -17,6 +17,19 @@
                             //         a.removeClass("active")
                             // })
                     })
+                },
+                hqTabs1: function(t, n) {
+                    var r = t,
+                
+                        o = e(this).find(".tab-content1"),
+                        a = e(this).find(".tab-content1 > .tab-c");
+                        e(this).find(".tab-t1").each(function(t) {
+                        e(this).on(r, function() {
+                                e(this).addClass("active").siblings().removeClass("active"),
+                                    o.addClass("active"),
+                                    a.removeClass("active").eq(t).addClass("active")
+                            })
+                    })
                 }
             })
         }(jQuery);
@@ -40,6 +53,7 @@
         $("#WisdomCity").hqTabs("mouseover")
         $("#J_serviceTab").hqTabs("mouseover")
         $("#solutionTab").hqTabs("click")
+        $(".solutionTab1").each(function(index,item){ $(item).hqTabs1("click")});
         $("#search").hqTabs("click")
         $(function() {
             // var uislider = $('.uislider').unslider({

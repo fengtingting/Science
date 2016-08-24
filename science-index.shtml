@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=9">
@@ -13,6 +14,7 @@
     <script type="text/javascript" src='js/commonstt.js'></script>
     <script src='js/jquery.SuperSlide.2.1.1.js'></script>
     <title>元器件交易网-科技成果</title>
+
     <body>
         <!-- ie7error提示 -->
         <!--[if lte IE 7]>
@@ -79,7 +81,7 @@
             <div class="container">
                 <div class="logo-group">
                     <h1><a class="logo" href="/" target="_self"><img src="./images/logo.gif" alt="元器件交易网"></a></h1><span class="logo-title"><a target="_self" href="">科技成果</a></span></div>
-                    <!-- 搜索 -->
+                <!-- 搜索 -->
                 <div class="search" id="search"></div>
                 <div class="tj-logo">
                     <a target="_blank" href="http://tj.cecb2b.com/"><img src="./images/zfzz.gif"></a>
@@ -114,10 +116,11 @@
                 <div class="service-menu">
                     <div class="service-wrap">
                         <h2 class="menu-tit">为您服务</h2>
-                        <p class="menu-adv">打造最权威的科技成果交易平台<br>为您提供更多更优质的科技项目</p>
+                        <p class="menu-adv">打造最权威的科技成果交易平台
+                            <br>为您提供更多更优质的科技项目</p>
                         <a target="_blank" href="">发布科技成果</a>
                         <a target="_blank" href="">提交需求</a>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
@@ -129,247 +132,88 @@
                         <p><span class="tab-t active">全部</span><span class="tab-t">新产品原型</span><span class="tab-t ">新技术</span><span class="tab-t">发明专利</span><span class="tab-t ">实用新型专利</span><span class="tab-t">外观设计专利</span></p>
                     </div>
                     <div class="solution-bd tab-content">
-                        <div class="science-hd">
-                            <p>筛选 : &nbsp&nbsp&nbsp&nbsp<span class="tab-t active">全部</span><span class="tab-t">专利</span><span class="tab-t">其他</span></p>  
-                        </div>
                         <div class="tab-content">
-                        <div class="silder-area tab-c active">
-                            <div class="slider-list">
-                                <div class="slider-list-img">
-                                    <img src="./images/listpic1.jpg">
-                                </div>
-                                <div class="slider-list-con">
-                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（全部）</a></h2>
-                                    <p>提供方：<span class="company">北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp时间：<span class="time">2016-07-05</span></p>
-                                    <p class="text-con"><a href="">通讯接口 CAN＆485； 并机数量 60 个； 通讯告警； 告警与状态 通过 CAN 总线或 485 总线上报监控后台或者面板 LED 显示上报监控后台或者面板 LED 显示</a></p>
-                                    <div class="chat-trad">
-                                            参考价：<!--  <a href="">登录可见</a> --><strong>￥1400</strong>&nbsp&nbsp&nbsp&nbsp&nbsp<a href=""><i class="icon-chat"></i>洽谈交易</a>
+                            <div class="silder-area tab-c active">
+                                <div class="science-hd solutionTab1">
+                                    <p>
+                                        <span class="tab-t1">专利</span><span class="tab-t1">其他</span></p>
+                                    <div class="tab-content1">
+                                        <div class="tab-c active">
+                                            123
+                                        </div>
+                                        <div class="tab-c">
+                                            123 4
+                                        </div>
                                     </div>
-                                    
-                                </div>  
+                                </div>
                             </div>
-                            <div class="slider-list">
-                                <div class="slider-list-img">
-                                    <img src="./images/listpic1.jpg">
-                                </div>
-                                <div class="slider-list-con">
-                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（全部）</a></h2>
-                                    <p>提供方：<span class="company">北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp时间：<span class="time">2016-07-05</span></p>
-                                    <p class="text-con"><a href="">通讯接口 CAN＆485； 并机数量 60 个； 通讯告警； 告警与状态 通过 CAN 总线或 485 总线上报监控后台或者面板 LED 显示上报监控后台或者面板 LED 显示</a></p>
-                                    <div class="chat-trad">
-                                            参考价： <a href="">登录可见</a><!-- <strong>￥1400</strong> -->&nbsp&nbsp&nbsp&nbsp&nbsp<a href=""><i class="icon-chat"></i>洽谈交易</a>
+                            <div class="silder-area tab-c">
+                                <div class="science-hd solutionTab1">
+                                    <p>
+                                        <span class="tab-t1">专利</span><span class="tab-t1">其他</span></p>
+                                    <div class="tab-content1">
+                                        <div class="tab-c active">
+                                            123
+                                        </div>
+                                        <div class="tab-c">
+                                            123 4
+                                        </div>
                                     </div>
-                                    
-                                </div>  
-                            </div>  
+                                </div>
+                            </div>
+                            <div class="silder-area tab-c">
+                                <div class="science-hd solutionTab1">
+                                    <p>
+                                        <span class="tab-t1">专利</span><span class="tab-t1">其他</span></p>
+                                    <div class="tab-content1">
+                                        <div class="tab-c active">
+                                            123
+                                        </div>
+                                        <div class="tab-c">
+                                            123 4
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    </div>
-                    <div class="solution-bd tab-content">
-                        <div class="silder-area tab-c ">
-                            <div class="slider-list">
-                                <div class="slider-list-img">
-                                    <img src="./images/listpic1.jpg">
-                                </div>
-                                <div class="slider-list-con">
-                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（一）</a></h2>
-                                    <p>提供方：<span class="company">北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp时间：<span class="time">2016-07-05</span></p>
-                                    <p class="text-con"><a href="">通讯接口 CAN＆485； 并机数量 60 个； 通讯告警； 告警与状态 通过 CAN 总线或 485 总线上报监控后台或者面板 LED 显示上报监控后台或者面板 LED 显示</a></p>
-                                    <div class="chat-trad">
-                                            参考价： <a href="">登录可见</a><!-- <strong>￥1400</strong> -->&nbsp&nbsp&nbsp&nbsp&nbsp<a href=""><i class="icon-chat"></i>洽谈交易</a>
-                                    </div>
-                                    
-                                </div>  
-                            </div>
-                            <div class="slider-list">
-                                <div class="slider-list-img">
-                                    <img src="./images/listpic1.jpg">
-                                </div>
-                                <div class="slider-list-con">
-                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（一）</a></h2>
-                                    <p>提供方：<span class="company">北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp时间：<span class="time">2016-07-05</span></p>
-                                    <p class="text-con"><a href="">通讯接口 CAN＆485； 并机数量 60 个； 通讯告警； 告警与状态 通过 CAN 总线或 485 总线上报监控后台或者面板 LED 显示上报监控后台或者面板 LED 显示</a></p>
-                                    <div class="chat-trad">
-                                            参考价： <a href="">登录可见</a><!-- <strong>￥1400</strong> -->&nbsp&nbsp&nbsp&nbsp&nbsp<a href=""><i class="icon-chat"></i>洽谈交易</a>
-                                    </div>
-                                    
-                                </div>  
-                            </div>
-   
-                        </div>
-                    </div>
-                     <div class="solution-bd tab-content">
-                        <div class="silder-area tab-c">
-                            <div class="slider-list">
-                                <div class="slider-list-img">
-                                    <img src="./images/listpic1.jpg">
-                                </div>
-                                <div class="slider-list-con">
-                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（二）</a></h2>
-                                    <p>提供方：<span class="company">北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp时间：<span class="time">2016-07-05</span></p>
-                                    <p class="text-con"><a href="">通讯接口 CAN＆485； 并机数量 60 个； 通讯告警； 告警与状态 通过 CAN 总线或 485 总线上报监控后台或者面板 LED 显示上报监控后台或者面板 LED 显示</a></p>
-                                    <div class="chat-trad">
-                                            参考价： <a href="">登录可见</a><!-- <strong>￥1400</strong> -->&nbsp&nbsp&nbsp&nbsp&nbsp<a href=""><i class="icon-chat"></i>洽谈交易</a>
-                                    </div>
-                                    
-                                </div>  
-                            </div>
-                            <div class="slider-list">
-                                <div class="slider-list-img">
-                                    <img src="./images/listpic1.jpg">
-                                </div>
-                                <div class="slider-list-con">
-                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（二）</a></h2>
-                                    <p>提供方：<span class="company">北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp时间：<span class="time">2016-07-05</span></p>
-                                    <p class="text-con"><a href="">通讯接口 CAN＆485； 并机数量 60 个； 通讯告警； 告警与状态 通过 CAN 总线或 485 总线上报监控后台或者面板 LED 显示上报监控后台或者面板 LED 显示</a></p>
-                                    <div class="chat-trad">
-                                            参考价： <a href="">登录可见</a><!-- <strong>￥1400</strong> -->&nbsp&nbsp&nbsp&nbsp&nbsp<a href=""><i class="icon-chat"></i>洽谈交易</a>
-                                    </div>
-                                    
-                                </div>  
-                            </div>
-   
-                        </div>
-                    </div>
-                     <div class="solution-bd tab-content">
-                        <div class="silder-area tab-c">
-                            <div class="slider-list">
-                                <div class="slider-list-img">
-                                    <img src="./images/listpic1.jpg">
-                                </div>
-                                <div class="slider-list-con">
-                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（三）</a></h2>
-                                    <p>提供方：<span class="company">北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp时间：<span class="time">2016-07-05</span></p>
-                                    <p class="text-con"><a href="">通讯接口 CAN＆485； 并机数量 60 个； 通讯告警； 告警与状态 通过 CAN 总线或 485 总线上报监控后台或者面板 LED 显示上报监控后台或者面板 LED 显示</a></p>
-                                    <div class="chat-trad">
-                                            参考价： <a href="">登录可见</a><!-- <strong>￥1400</strong> -->&nbsp&nbsp&nbsp&nbsp&nbsp<a href=""><i class="icon-chat"></i>洽谈交易</a>
-                                    </div>
-                                    
-                                </div>  
-                            </div>
-                            <div class="slider-list">
-                                <div class="slider-list-img">
-                                    <img src="./images/listpic1.jpg">
-                                </div>
-                                <div class="slider-list-con">
-                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（三）</a></h2>
-                                    <p>提供方：<span class="company">北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp时间：<span class="time">2016-07-05</span></p>
-                                    <p class="text-con"><a href="">通讯接口 CAN＆485； 并机数量 60 个； 通讯告警； 告警与状态 通过 CAN 总线或 485 总线上报监控后台或者面板 LED 显示上报监控后台或者面板 LED 显示</a></p>
-                                    <div class="chat-trad">
-                                            参考价： <a href="">登录可见</a><!-- <strong>￥1400</strong> -->&nbsp&nbsp&nbsp&nbsp&nbsp<a href=""><i class="icon-chat"></i>洽谈交易</a>
-                                    </div>
-                                    
-                                </div>  
-                            </div>
-   
-                        </div>
-                    </div>
-                    <div class="solution-bd tab-content">
-                        <div class="silder-area tab-c">
-                            <div class="slider-list">
-                                <div class="slider-list-img">
-                                    <img src="./images/listpic1.jpg">
-                                </div>
-                                <div class="slider-list-con">
-                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（四）</a></h2>
-                                    <p>提供方：<span class="company">北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp时间：<span class="time">2016-07-05</span></p>
-                                    <p class="text-con"><a href="">通讯接口 CAN＆485； 并机数量 60 个； 通讯告警； 告警与状态 通过 CAN 总线或 485 总线上报监控后台或者面板 LED 显示上报监控后台或者面板 LED 显示</a></p>
-                                    <div class="chat-trad">
-                                            参考价： <a href="">登录可见</a><!-- <strong>￥1400</strong> -->&nbsp&nbsp&nbsp&nbsp&nbsp<a href=""><i class="icon-chat"></i>洽谈交易</a>
-                                    </div>
-                                    
-                                </div>  
-                            </div>
-                            <div class="slider-list">
-                                <div class="slider-list-img">
-                                    <img src="./images/listpic1.jpg">
-                                </div>
-                                <div class="slider-list-con">
-                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（四）</a></h2>
-                                    <p>提供方：<span class="company">北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp时间：<span class="time">2016-07-05</span></p>
-                                    <p class="text-con"><a href="">通讯接口 CAN＆485； 并机数量 60 个； 通讯告警； 告警与状态 通过 CAN 总线或 485 总线上报监控后台或者面板 LED 显示上报监控后台或者面板 LED 显示</a></p>
-                                    <div class="chat-trad">
-                                            参考价： <a href="">登录可见</a><!-- <strong>￥1400</strong> -->&nbsp&nbsp&nbsp&nbsp&nbsp<a href=""><i class="icon-chat"></i>洽谈交易</a>
-                                    </div>
-                                    
-                                </div>  
-                            </div>
-   
-                        </div>
-                    </div>
-                    <div class="solution-bd tab-content">
-                        <div class="silder-area tab-c">
-                            <div class="slider-list">
-                                <div class="slider-list-img">
-                                    <img src="./images/listpic1.jpg">
-                                </div>
-                                <div class="slider-list-con">
-                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（五）</a></h2>
-                                    <p>提供方：<span class="company">北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp时间：<span class="time">2016-07-05</span></p>
-                                    <p class="text-con"><a href="">通讯接口 CAN＆485； 并机数量 60 个； 通讯告警； 告警与状态 通过 CAN 总线或 485 总线上报监控后台或者面板 LED 显示上报监控后台或者面板 LED 显示</a></p>
-                                    <div class="chat-trad">
-                                            参考价： <a href="">登录可见</a><!-- <strong>￥1400</strong> -->&nbsp&nbsp&nbsp&nbsp&nbsp<a href=""><i class="icon-chat"></i>洽谈交易</a>
-                                    </div>
-                                    
-                                </div>  
-                            </div>
-                            <div class="slider-list">
-                                <div class="slider-list-img">
-                                    <img src="./images/listpic1.jpg">
-                                </div>
-                                <div class="slider-list-con">
-                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（五）</a></h2>
-                                    <p>提供方：<span class="company">北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp时间：<span class="time">2016-07-05</span></p>
-                                    <p class="text-con"><a href="">通讯接口 CAN＆485； 并机数量 60 个； 通讯告警； 告警与状态 通过 CAN 总线或 485 总线上报监控后台或者面板 LED 显示上报监控后台或者面板 LED 显示</a></p>
-                                    <div class="chat-trad">
-                                            参考价： <a href="">登录可见</a><!-- <strong>￥1400</strong> -->&nbsp&nbsp&nbsp&nbsp&nbsp<a href=""><i class="icon-chat"></i>洽谈交易</a>
-                                    </div>
-                                    
-                                </div>  
-                            </div>
-   
-                        </div>
-                    </div>
-
                     <div class="load-more">
                         <a href="">加载更多</a>
                     </div>
-                    
                 </div>
                 <div class="solution-wrap-r">
                     <div class="solution-about">
                         <h2>联系我们</h2>
-                        <p>QQ：4006265285<br>电 话： 010－62636888<br>Email：kefu@cecb2b.com<br>联系我们获取更多方案和商务合作机会</p>
+                        <p>QQ：4006265285
+                            <br>电 话： 010－62636888
+                            <br>Email：kefu@cecb2b.com
+                            <br>联系我们获取更多方案和商务合作机会</p>
                     </div>
                     <div class="solution-need">
                         <h2>最新需求</h2>
                         <div class="list-area">
-                             <div class="need-list">
+                            <div class="need-list">
                                 <h3><a href="">电动车并网逆变机</a></h3>
                                 <p><a href="">通讯接口 CAN＆485并机数量600个，通讯告警告警与状态通过 CANB32 总线</a></p>
-                            
                             </div>
                             <div class="need-list">
                                 <h3><a href="">电动车并网逆变机</a></h3>
                                 <p><a href="">通讯接口 CAN＆485并机数量600个，通讯告警告警与状态通过 CANB32 总线</a></p>
-                            
                             </div>
                             <div class="need-list">
                                 <h3><a href="">电动车并网逆变机</a></h3>
                                 <p><a href="">通讯接口 CAN＆485并机数量600个，通讯告警告警与状态通过 CANB32 总线</a></p>
-                            
                             </div>
                             <div class="need-list">
                                 <h3><a href="">电动车并网逆变机</a></h3>
                                 <p><a href="">通讯接口 CAN＆485并机数量600个，通讯告警告警与状态通过 CANB32 总线</a></p>
-                            
                             </div>
-                            <div class="look-more"><p><a href="" target="_blank">查看更多</a></p></div>
-                            
-                        </div> 
+                            <div class="look-more">
+                                <p><a href="" target="_blank">查看更多</a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
             </div>
             <div class="clear"></div>
             <div class="foot-about">
