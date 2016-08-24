@@ -8,7 +8,6 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="css/header_foot.css">
-    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_1471621056_7883842.css">
     <script src="http://images.cecb2b.com/js/common_new/jquery-1.8/jquery.js" type="text/javascript"></script>
     <script type="text/javascript" src="http://images.cecb2b.com/js/common_new/common_top_2014.js"></script>
     <script src='js/jquery.SuperSlide.2.1.1.js'></script>
@@ -30,18 +29,6 @@
                 position_fixed(document.getElementById("ie7-warning"),0, 0);
         </script>
         <![endif]-->
-        <!-- 放假通知 -->
-        <!-- <div id="topNotice">
-            <a id="topNotice_close" title="关闭"></a>
-            <p id="topNotice_content" />尊敬的用户，春节放假期间（2月3日-2月17日），网站暂停人工咨询服务，不便之处敬请谅解！网站全体员工恭祝各位新年快乐，财源广进！</p>
-        </div> -->
-        <!-- 顶部广告 -->
-        <!-- <div id="J_topBanner" class="top-banner1" style="display: block;">
-            <a class="close">x</a>
-            <a href="/common/asinfostat.aspx?url=http://www.hqbuy.com/news/1340.html?hmsr=hqewg1002b&amp;code=G01001&amp;asinfoid=8313">
-                <img src="http://dfsimg1.hqewimg.com/group1/M00/00/10/wKhk7VetJLGAePi1AABA-DOHsX4038.jpg" class="img-small" height="40" width="1190">
-            </a>
-        </div> -->
         <div id="top">
             <div class="tops">
                 <div class="leftc">
@@ -393,18 +380,6 @@
                 </p>
             </div>
         </div>
-        <!-- 右下角弹窗 -->
-        <!-- <div id="webim">
-            <dl class="dlstyle">
-                <dt class="dtstyle">
-                    <span id="webimclosebutton" title="点击关闭">关闭</span></dt>
-            </dl>
-            <dl>
-                <dd>
-                    <a href="http://www.itcast.cn/subject/summer/index.shtml?a201" target="_blank" id="webim_link"><img src="http://dfsimg2.hqewimg.com/group1/M00/00/0E/wKhk7letJliAbEqfAABG4ArKTQI540.jpg" style="height: 188px; width: 280px"></a>
-                </dd>
-            </dl>
-        </div> -->
         <script type="text/javascript" src="js/base.js"></script>
     </body>
 

@@ -8,13 +8,9 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="css/header_foot.css">
-    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_1471621056_7883842.css">
-    <!-- <link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
     <script src="http://images.cecb2b.com/js/common_new/jquery-1.8/jquery.js" type="text/javascript"></script>
     <script type="text/javascript" src="http://images.cecb2b.com/js/common_new/common_top_2014.js"></script>
-    <script type="text/javascript" src='js/commonstt.js'></script>
     <script src='js/jquery.SuperSlide.2.1.1.js'></script>
-
     <title>元器件交易网-解决方案-详情页</title>
     <body>
         <!-- ie7error提示 -->
@@ -211,9 +207,8 @@
                                 
                             </div>
                          </div>
-                         
-
-                       
+                         <!-- 距离底部 -->
+                         <div class="h50"></div>                                 
                     </div>
                     
                 </div>
@@ -323,24 +318,8 @@
                     </a>
                      <a class="etitle" href="javascript:void(0)" target="_blank">服务介绍</a>
                 </li>
-            </ul>
-
-
-            
+            </ul>            
         </div>
-
-        <!-- 右下角弹窗 -->
-        <!-- <div id="webim">
-            <dl class="dlstyle">
-                <dt class="dtstyle">
-                    <span id="webimclosebutton" title="点击关闭">关闭</span></dt>
-            </dl>
-            <dl>
-                <dd>
-                    <a href="http://www.itcast.cn/subject/summer/index.shtml?a201" target="_blank" id="webim_link"><img src="http://dfsimg2.hqewimg.com/group1/M00/00/0E/wKhk7letJliAbEqfAABG4ArKTQI540.jpg" style="height: 188px; width: 280px"></a>
-                </dd>
-            </dl>
-        </div> -->
         <script type="text/javascript" src="js/base.js"></script>
     </body>
 
