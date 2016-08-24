@@ -23,6 +23,12 @@
 .h50{
     height: 50px;
 }
+.pt15{
+    padding-top: 15px;
+}
+.pb15{
+    padding-bottom: 15px;
+}
 .gray{
         background: #000 none repeat scroll 0 0 !important;
         opacity: 0.1 !important;
@@ -756,20 +762,15 @@ border-bottom: 0 none;
 .solution-wrap .solution-wrap-r  .solution-need{
 
 }
-.solution-wrap .solution-wrap-r  .solution-need .list-area{
-    width: 330px;
+.solution-wrap .solution-wrap-r  .solution-need .list-area,.solution-wrap .solution-wrap-r .science-hot .list-area{
    padding: 0px 30px;
-
-
-
-
 }
-.solution-wrap .solution-wrap-r  .solution-need .list-area .need-list{
+.solution-wrap .solution-wrap-r .solution-need .list-area .need-list{
     width: 270px;
-   height: 108px;
+    padding-bottom: 20px;
    border-bottom: 1px dashed #e6e6e6;
 }
-.solution-wrap .solution-wrap-r  .solution-need .list-area .need-list h3{
+.solution-wrap .solution-wrap-r  .solution-need .list-area .need-list h3,.solution-wrap .solution-wrap-r .science-hot .list-area .need-list h3{
     height: 44px;
     line-height: 44px;
     overflow: hidden;
@@ -1389,4 +1390,131 @@ right: 10px;
 }
 .need-list .need-bd .require p a{
     color: #3776d3;
+}
+
+/*科技成果详情页*/
+.detil-wrap .detil-l .detil-t h2 span.top-tip{
+    font-size: 12px;
+    border: 1px solid #3776d3;
+    display: inline-block;
+    width: 38px;
+    height: 20px;
+    line-height: 20px;
+    color: #3776d3;
+    text-align: center;
+    margin-left: 10px;
+}
+.solution-detil-list .detil-bd .detil-dl{
+}
+.solution-detil-list .detil-bd .detil-dl dt{
+    float: left;
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+.solution-detil-list .detil-bd .detil-dl dd{
+    float: left;
+    width: 745px;
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.solution-wrap .solution-wrap-r .science-hot{
+        font-size: 16px;
+    color: #383838;
+    background: #f8f8f8;
+}
+
+.solution-wrap .solution-wrap-r .science-hot h2{
+    height: 50px;
+    line-height: 50px;
+    text-indent: 1.5em;
+    display: inline-block;
+    border-bottom: 1px solid #e6e6e6;
+    width: 330px;
+}
+
+.solution-wrap .solution-wrap-r .science-hot .list-area .need-list p{
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+}
+
+.solution-wrap .solution-wrap-r .science-hot .list-area .need-list{
+    width: 270px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   border-bottom: 1px dashed #e6e6e6;
+
+}
+.need-wrap .solution-wrap-r .service-menu{
+    width: 330px;
+    height: 244px;
+    background: #f8f8f8;
+    text-align: center;
+    padding-top: 56px;
+    margin-bottom: 20px;
+}
+.need-wrap .solution-wrap-r .service-menu .service-wrap{
+        width: 196px;
+    margin: 0 auto;
+}
+.need-wrap .solution-wrap-r .service-menu .service-wrap h2.menu-tit{
+    font-size: 24px;
+    color: #3776d3;
+    height: 50px;
+    line-height: 50px;
+}
+.need-wrap .solution-wrap-r .service-menu .service-wrap p.menu-adv{
+    font-size: 14px;
+    line-height: 22px;
+    color: #383838;
+    margin-bottom: 15px;
+}
+.need-wrap .solution-wrap-r .service-menu .service-wrap a{
+    width: 125px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #3776d3;
+    display: inline-block;
+    line-height: 30px;
+    color: #3776d3;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.need-wrap .solution-wrap-r .service-menu .service-wrap a:hover{
+    width: 127px;
+    height: 32px;
+    background: #3776d3;
+    color: #fff;
+    border: 0 none;
+}
+/*科技成果首页*/
+.solution-wrap .solution-wrap-l .solution-bd .science-hd{
+    height: 60px;
+    background: #f8f8f8;
+    line-height: 60px;
+    padding-left: 50px;
+    width: 790px;
+}
+.solution-wrap .solution-wrap-l .solution-bd .science-hd p{
+    font-size: 14px;
+    color: #666;
+}
+.solution-wrap .solution-wrap-l .solution-bd .science-hd p span{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 5px;
+}
+.solution-wrap .solution-wrap-l .solution-bd .science-hd p span.active{
+background: #3776d3;
+color: #fff;
 }
