@@ -1546,3 +1546,44 @@ color: #fff;
     background: url("http://www.itcast.cn/files/image/201602/20160229150200530.jpg");
     text-indent: -9999px;
 }
+
+/*右悬浮*/
+.zx {
+    width: 42px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -60px;
+    z-index: 99999;
+}
+
+.zx li {
+    width: 42px;
+    height: 42px;
+    position: relative;
+    z-index: 99999;
+    margin-bottom: 1px;
+}
+.zx li span.icon_s {
+    width: 42px;
+    height: 42px;
+    display:block;
+    background: url(../images/zx_r.png) no-repeat center top;
+}
+.zx li.li_2 span.icon_s {
+background-position: 0 -43px;
+}
+.zx li.li_3 span.icon_s {
+background-position: 0 -85px;
+}
+.zx li .zx-text{
+    position: absolute;
+    left: -70px;
+    top: -10px;
+    width: 28px;
+    height: 44px;
+    border: 1px solid #e6e6e6;
+    font-size: 12px;
+    color: #999999;
+    padding: 10px 15px 0;
+}
