@@ -693,17 +693,22 @@
                     <a href="" target="_blank">
                         <span class="icon_s">&nbsp;</span>
                     </a>
-                    <div class="zx-text">
-                        <i class="arrow_out"></i>在线客服
+                    <div class="zx-text hide">
+                        <i class="arrow_out"></i>
+                        <i class="arrow_in"></i>在线客服
                     </div>
                 </li>
                 <li class="li_2">
-                     <a href="" target="_blank">
+                     <a href="http://wj.qq.com/s/750261/0d97" target="_blank">
                         <span class="icon_s">&nbsp;</span>
                     </a>
+                    <div class="zx-text hide">
+                        <i class="arrow_out"></i>
+                        <i class="arrow_in"></i>用户反馈
+                    </div>
                 </li>
-                <li class="li_3">
-                     <a href="" target="_blank">
+                <li class="li_3" id="back">
+                     <a href="javascript:void(0);" target="_blank">
                         <span class="icon_s">&nbsp;</span>
                     </a>
                 </li>
@@ -711,29 +716,7 @@
         </div>
         <script type="text/javascript" src="js/base.js"></script>
         <script type="text/javascript">
-            //通用咨询
-                $(".zx li").mouseenter(function(){
-                    $(this).children("div").show();
-                })
-                $(".zx li").mouseleave(function(){
-                    $(this).children("div").stop().hide();
-                })  
-                $(window).scroll(function(){
-                    var A = $(window).scrollTop();
-
-                    if(A > 400){
-                        $("#back").css("visibility","visible");
-                    }else{
-                        $("#back").css("visibility","hidden");
-                    }
-                });
-                $("#back").click(function(){
-                    $("html,body").animate(
-                        {
-                            "scrollTop":0
-                        },500
-                    );  
-                })
+            
         </script>
     </body>
 
