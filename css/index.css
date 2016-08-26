@@ -1392,7 +1392,7 @@ right: 10px;
 }
 
 /*科技成果详情页*/
-.detil-wrap .detil-l .detil-t h2 span.top-tip{
+.detil-wrap .detil-l .detil-t h2 span.top-tip,.solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con h2 span.top-tip{
     font-size: 12px;
     border: 1px solid #3776d3;
     display: inline-block;
@@ -1520,70 +1520,4 @@ color: #fff;
 
 .solution-wrap-l .solutionTab1 .load-more{
     margin-right: 30px;
-}
-
-/*右下角弹窗*/
-
-#webim {
-    width: 280px;
-    height: 188px;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    z-index: 999999;
-}
-
-#webim .dlstyle {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    right: 0;
-}
-#webim .dlstyle span {
-    width: 24px;
-    height: 24px;
-    display: block;
-    background: url("http://www.itcast.cn/files/image/201602/20160229150200530.jpg");
-    text-indent: -9999px;
-}
-
-/*右悬浮*/
-.zx {
-    width: 42px;
-    position: fixed;
-    right: 0;
-    top: 50%;
-    margin-top: -60px;
-    z-index: 99999;
-}
-
-.zx li {
-    width: 42px;
-    height: 42px;
-    position: relative;
-    z-index: 99999;
-    margin-bottom: 1px;
-}
-.zx li span.icon_s {
-    width: 42px;
-    height: 42px;
-    display:block;
-    background: url(../images/zx_r.png) no-repeat center top;
-}
-.zx li.li_2 span.icon_s {
-background-position: 0 -43px;
-}
-.zx li.li_3 span.icon_s {
-background-position: 0 -85px;
-}
-.zx li .zx-text{
-    position: absolute;
-    left: -70px;
-    top: -10px;
-    width: 28px;
-    height: 44px;
-    border: 1px solid #e6e6e6;
-    font-size: 12px;
-    color: #999999;
-    padding: 10px 15px 0;
 }
