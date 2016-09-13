@@ -77,6 +77,15 @@
                 </div>
             </div>
         </div>
+        <style type="text/css">
+        .solution-cont .solution-cont-list p span a{
+            color: #999;
+
+        }
+        .solution-cont .solution-cont-list p span a:hover{
+            color: #3776d3;
+        }
+        </style>
         <!-- 头部logo -->
         <div class="header">
             <div class="container">
@@ -133,7 +142,7 @@
                         <div class="solution-cont-list">
                             <h2><a href="">电动车并网逆变机</a></h2>
                             <p class="list-tit">需求方：<span>北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp&nbsp时间：<span>2016-07-05</span></p>
-                            <p>规格说明：<span>有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能，有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。 人性化的画面。</span></p>
+                            <p>规格说明：<span><a href="">有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能，有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。 人性化的画面。</a></span></p>
                             <p><span>需求时间：2016-11-01到2017-01-01</span></p>
                         </div> 
                         <div class="solution-cont-list">
